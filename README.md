@@ -12,7 +12,9 @@
 
 Day 8 
 command line tool test -> 기본적인 계산하는 법 학습 
-Caculator Storyboard 활용하여 제작함
+
+Caculator Storyboard 활용 제작함 UI는 아래 이미지 참고하여 제작 
+![calculator image](https://github.com/haloswpark/FC_ios/blob/master/ios_MainStudy/day8_0504/myCacluator/참고화면.png)
 
 2016.0425~0501 1주차 : 컴퓨터 개론 네트워크, 알고리즘, 데이터 베이스, 자료구조
 FC_ios
