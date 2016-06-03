@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1533F03F1CF8256D0080AC35 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1533F03E1CF8256D0080AC35 /* logo.png */; };
-		1533F0411CF8257D0080AC35 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1533F0401CF8257D0080AC35 /* background.png */; };
+		152969651D0008E400767C57 /* login_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 152969641D0008E400767C57 /* login_logo.png */; };
 		1566505B1CF1E8F300976258 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566505A1CF1E8F300976258 /* main.m */; };
 		1566505E1CF1E8F300976258 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566505D1CF1E8F300976258 /* AppDelegate.m */; };
 		156650611CF1E8F300976258 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156650601CF1E8F300976258 /* ViewController.m */; };
@@ -38,8 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1533F03E1CF8256D0080AC35 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../logo.png; sourceTree = "<group>"; };
-		1533F0401CF8257D0080AC35 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../background.png; sourceTree = "<group>"; };
+		152969641D0008E400767C57 /* login_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_logo.png; path = ../../../../login_logo.png; sourceTree = "<group>"; };
 		156650561CF1E8F300976258 /* hw_AutoLayout_Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw_AutoLayout_Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1566505A1CF1E8F300976258 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1566505C1CF1E8F300976258 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,8 +110,7 @@
 				1566505F1CF1E8F300976258 /* ViewController.h */,
 				156650601CF1E8F300976258 /* ViewController.m */,
 				156650621CF1E8F300976258 /* Main.storyboard */,
-				1533F0401CF8257D0080AC35 /* background.png */,
-				1533F03E1CF8256D0080AC35 /* logo.png */,
+				152969641D0008E400767C57 /* login_logo.png */,
 				156650681CF1E8F300976258 /* Assets.xcassets */,
 				1566506A1CF1E8F300976258 /* LaunchScreen.storyboard */,
 				1566506D1CF1E8F300976258 /* Info.plist */,
@@ -254,9 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1566506C1CF1E8F300976258 /* LaunchScreen.storyboard in Resources */,
-				1533F0411CF8257D0080AC35 /* background.png in Resources */,
-				1533F03F1CF8256D0080AC35 /* logo.png in Resources */,
 				156650691CF1E8F300976258 /* Assets.xcassets in Resources */,
+				152969651D0008E400767C57 /* login_logo.png in Resources */,
 				156650641CF1E8F300976258 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
