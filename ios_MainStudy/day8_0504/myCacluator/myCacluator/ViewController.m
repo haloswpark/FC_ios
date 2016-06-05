@@ -40,42 +40,48 @@
 }
 
 //덧셈 연산값
--(void)operationAdd: (NSInteger)secondNum;
+-(void)operationAdd: (NSInteger)secondNum
 {
-    resultNum=resultNum+secondNum;
+    resultNum=resultNum + secondNum;
 }
 
 //뺄셈 연산값
--(void)operationSubtract: (NSInteger)secondNum;
+-(void)operationSub: (NSInteger)secondNum
 {
-    resultNum=resultNum-secondNum;
+    resultNum=resultNum - secondNum;
 }
 
 //곱셈 연산값
--(void)operationMultiply: (NSInteger)secondNum;
+-(void)operationMultipl: (NSInteger)secondNum
 {
-    resultNum=resultNum*secondNum;
+    resultNum=resultNum * secondNum;
 }
 
 //나눗셈 연산값
--(void)operationDivide: (NSInteger)secondNum;
+-(void)operationDivi: (NSInteger)secondNum
 {
-    resultNum=resultNum/secondNum;
+    resultNum=resultNum / secondNum;
 }
 
 //SecondNum 돌아갈 때 사용
--(void)operatingWithSceondNum:(NSInteger)num;
+-(void)operatingWithSceondNum:(NSInteger)num
 {
-    if(operatorBuffer.length !=0){
-        if([operatorBuffer isEqualToString:@"+"]){
+    if(operatorBuffer.length>0){
+        if([operatorBuffer isEqualToString:@"+"])
+        {//덧셈 연산
             [self operationAdd:num];
-        }else if ([operatorBuffer isEqualToString:@"-"]){
-            [self operationSubtract:num];
-        }else if ([operatorBuffer isEqualToString:@"*"]){
-            [self operationMultiply:num];
-        }else if([operatorBuffer isEqualToString:@"/"]){
-            [self operationDivide:num];
-        }else{
+        }else if ([operatorBuffer isEqualToString:@"-"])
+        {//뺄셈 연산
+            [self operationSub:num];
+        }else if ([operatorBuffer isEqualToString:@"x"])
+        {//곱셈 연산
+            [self operationMultipl:num];
+        }else if([operatorBuffer isEqualToString:@"/"])
+        {//나눗셈 연산
+            [self operationDivi:num];
+        }
+        //그 이외
+        else{
             NSLog(@"error");
         }
     }else{
@@ -83,7 +89,7 @@
     }
 }
 
-//액션 값 지정
+//액션 값  지정
 -(IBAction)onTouchUpInsideNumberBtn:(id)sender{
     NSString *numberStr = ((UIButton *)sender).titleLabel.text;
     displayText = [displayText stringByAppendingString:numberStr];
@@ -110,7 +116,7 @@
     }
 }
 
--(IBAction)onTouchUpInsideResultBtn:(id)sender
+-(IBAction)onTouchUpInsideResultBtn:(UIButton *)sender
 {
     if (displayText.length>0){
         [self operatingWithSceondNum:displayText.integerValue];
