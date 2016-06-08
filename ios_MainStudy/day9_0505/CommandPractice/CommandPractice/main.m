@@ -1,5 +1,5 @@
 //
-//  main2.m
+//  main.m
 //  CommandPractice
 //
 //  Created by Sangwook's Macbook on 2016. 6. 5..
@@ -55,27 +55,27 @@ bool isEvenNumber(int num) {
 int scoreGrade(float avgScore) {
     int grade = 0;
     if (100 >= avgScore && avgScore >= 90){
-        return = 1;
+        grade = 1;
     }else if (89 >= avgScore && avgScore >=80){
-        return = 2;
+        grade = 2;
     }else if (79 >= avgScore && avgScore >=70){
-        return = 3;
+        grade = 3;
     }else if (69 >= avgScore && avgScore >= 60){
-        return = 4;
+        grade = 4;
     }else if (59 >= avgScore && avgScore >=50){
-        return = 5;
+        grade = 5;
     }else if (49 >= avgScore && avgScore >=40){
-        return = 6;
+        grade = 6;
     }else if (39 >= avgScore && avgScore >=30){
-        return = 7;
+        grade = 7;
     }else if (29 >= avgScore && avgScore >=20){
-        return = 8;
+        grade = 8;
     }else if (19 >= avgScore && avgScore >=10){
-        return = 9;
+        grade = 9;
     }else if (9 >= avgScore && avgScore >=0){
-        return = 10;
-        
-        return 0;
+        grade = 10;
+    }
+        return grade;
 }
 
 //8.성적에 따른 장학금 수혜자 선정
@@ -86,32 +86,17 @@ void scholarshipWithGrade(int grade) {
             //이 부분에 해당되면 식이 종료되고, 그렇지 않으면 그 다음 케이스로 이동
             break;
         case 2:
-            printf("이 학생은 50% 장학금 수혜 대상자입니다!\n");
+            printf("이 학생은 50%%장학금 수혜 대상자입니다!\n");
             break;
         case 3:
-            printf("이 학생은 25% 장학금 수혜 대상자입니다!\n");
+            printf("이 학생은 25%%장학금 수혜 대상자입니다!\n");
         default:
-            printf("장학금 수혜자 대상이 아닙니다 공부를 좀 더 열심히 하세요.");
-    }
-    }
-void scholarshipWithGrade(int grade) {
-    switch (grade) {
-        case 1:
-            printf("전액 장학금!\n");
-            break;
-        case 2:
-            printf("50%% 장학금!\n");
-            break;
-        case 3:
-            printf("25%% 장학금!\n");
-            break;
-        default:
-            printf("장학금 없음\n");
-            break;
-    }
+            printf("장학금 수혜자 대상이 아닙니다 공부를 좀 더 열심히 하세요.\n");
+                }
 }
 
-// 절대값 구하기
+
+//9. 절대값 구하기
 int absoluteNum(int num) {
     if (num < 0) {
         num = -num;
@@ -119,7 +104,7 @@ int absoluteNum(int num) {
     return num;
 }
 
-// 문자 구분
+//10. 문자 구분
 void checkAlphabet(char ch) {
     if ('a' <= ch && ch <= 'z') {
         printf("%c는 소문자 입니다.\n", ch);
@@ -131,21 +116,21 @@ void checkAlphabet(char ch) {
 }
 
 
-void check369number(int num);
-
-
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        //        printf("우리집 평수는 %0.2f입니다.",roomSizeOfM2(100));
-        //        int radius = 3959;
-        //        printf("지구의 반지름은 %d마일이며 둘레는 %0.2f입니다.",radius,circumference(radius));
-        //        int money = 1000000;
-        //        printf("%d원은 %d달러 입니다.",money, dollarOfKRW(money));
-        check369number(1000);
+//         insert code here...
+    printf("우리집 평수는 %0.2f입니다.\n",roomSize0fM2(100));
+    int radius = 4590;
+    printf("반지름은 %d이고 둘레는 %0.2f입니다.\n",radius,circircumference(radius));
+    int money = 1250000;
+    printf("%d원은 %d달러 입니다.\n",money, dollarOfKRW(money));
+    float avgScore = 90;
+    printf("%0.1f점의 등급은? %d등급입니다.\n", avgScore, scoreGrade(avgScore));
+    scholarshipWithGrade(2);
+    int num = 100;
+    printf("%d의 절대값은 : %d입니다\n", num, absoluteNum(num));
+    checkAlphabet('D');
         
     }
     return 0;
 }
-
-
