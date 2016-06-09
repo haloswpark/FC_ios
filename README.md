@@ -2,9 +2,13 @@
 ## Git을 자주 날려먹어서 지난날 코딩했던 내역들이 자주 사라지곤 했습니다.
 ### 이제 정리해서 차근차근 올릴까 합니다
 
-2015.0523~0529 5주차 :
+2016.0607~0610 7주차 : 
 
-2015.0516~0520 4주차 : Xcode AutoLayout 및 UI coding 학습
+2016.0531~0603 6주차 : 
+
+2016.0523~0529 5주차 :
+
+2016.0516~0520 4주차 : Xcode AutoLayout 및 UI coding 학습
 
 2016.0509~0513 3주차 : Objective C Basic Study 2nd Vending Machine Project 
 
