@@ -12,20 +12,24 @@
 
 2016.0509~0513 3주차 : Objective C Basic Study 2nd Vending Machine Project 
 
-2016.0502~0506 2주차 : Objective C Basic Study 오브젝티브 C 기초 공부
+##Day 20 
+#AutoLayout login page test -> 오토레이아웃 활용 로그인 페이지 제작 + 로고&app icon
+>[0520_AutoLayout](https://github.com/haloswpark/FC_ios/tree/master/ios_MainStudy/day20_0520/AutolayoutTest)
 
-Day 20 
-AutoLayout login page test -> 오토레이아웃 활용 로그인 페이지 제작 + 로고&app icon
 ![로고 아이콘](https://github.com/haloswpark/FC_ios/blob/master/ios_MainStudy/day20_0520/AutolayoutTest/Autolayout_logo/ios/iTunesArtwork.png)
 ![회원가입화면](https://github.com/haloswpark/FC_ios/blob/master/ios_MainStudy/day20_0520/AutolayoutTest/SC1.png)
 ![로그인 화면](https://github.com/haloswpark/FC_ios/blob/master/ios_MainStudy/day20_0520/AutolayoutTest/SC2.png)
 ![로그인 이후 화면](https://github.com/haloswpark/FC_ios/blob/master/ios_MainStudy/day20_0520/AutolayoutTest/SC4.png)
 
-Day 8 
-command line tool test -> 기본적인 계산하는 법 학습 
+###2016.0502~0506 2주차 : Objective C Basic Study 오브젝티브 C 기초 공부
 
-Caculator Storyboard 활용 제작함 UI는 아래 이미지 참고하여 제작 
+
+##Day 8 
+
+#command line tool test -> 기본적인 계산하는 법 학습 
+
+#Caculator Storyboard 활용 제작함 UI는 아래 이미지 참고하여 제작 
 ![calculator image](https://github.com/haloswpark/FC_ios/blob/master/ios_MainStudy/day8_0504/myCacluator/참고화면.png)
 
-2016.0425~0501 1주차 : 컴퓨터 개론 네트워크, 알고리즘, 데이터 베이스, 자료구조
+###2016.0425~0501 1주차 : 컴퓨터 개론 네트워크, 알고리즘, 데이터 베이스, 자료구조
 FC_ios
