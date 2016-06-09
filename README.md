@@ -14,6 +14,13 @@
 
 2016.0502~0506 2주차 : Objective C Basic Study 오브젝티브 C 기초 공부
 
+Day 20 
+AutoLayout login page test -> 오토레이아웃 활용 로그인 페이지 제작 + 로고&app icon
+![로고 아이콘](https://github.com/haloswpark/FC_ios/blob/master/ios_MainStudy/day20_0520/AutolayoutTest/Autolayout_logo/ios/iTunesArtwork.png)
+![회원가입화면](https://github.com/haloswpark/FC_ios/blob/master/ios_MainStudy/day20_0520/AutolayoutTest/SC1.png)
+![로그인 화면](https://github.com/haloswpark/FC_ios/blob/master/ios_MainStudy/day20_0520/AutolayoutTest/SC2.png)
+![로그인 이후 화면](https://github.com/haloswpark/FC_ios/blob/master/ios_MainStudy/day20_0520/AutolayoutTest/SC4.png)
+
 Day 8 
 command line tool test -> 기본적인 계산하는 법 학습 
 
