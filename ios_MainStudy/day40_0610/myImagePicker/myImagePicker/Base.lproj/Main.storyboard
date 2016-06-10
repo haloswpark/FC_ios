@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tr7-dr-aCu">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="5It-ww-rHV" appends="YES" id="Jcs-B6-Yzb"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.062745098040000002" green="0.090196078430000007" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Tr7-dr-aCu" secondAttribute="bottom" id="JoL-7C-Gmx"/>
+                            <constraint firstItem="Tr7-dr-aCu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ZxZ-wB-RBg"/>
+                            <constraint firstItem="Tr7-dr-aCu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="d5e-aK-Wyq"/>
+                            <constraint firstAttribute="trailing" secondItem="Tr7-dr-aCu" secondAttribute="trailing" id="fYA-LC-PNW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Tr7-dr-aCu" id="pRa-U5-l3y"/>
+                        <outlet property="tapAction" destination="5It-ww-rHV" id="iLy-MT-LWL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="5It-ww-rHV">
+                    <connections>
+                        <action selector="touchImageView:" destination="BYZ-38-t0r" id="zNK-El-ahi"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+        <!--Controll-->
+        <scene sceneID="08k-No-y3s">
+            <objects>
+                <viewController id="XMj-6V-k5R" customClass="UIControll" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="41T-wI-H8r"/>
+                        <viewControllerLayoutGuide type="bottom" id="rss-TS-U72"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NXW-VJ-7b4" customClass="UIControl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5QD-xQ-zCu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="947" y="429"/>
+        </scene>
+    </scenes>
+</document>
