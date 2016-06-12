@@ -5,9 +5,9 @@
 2016.0607~0610 7주차 : 
 
 ##Day 40 
-#Alert기능 예제 연습 및 UIImagePicker 제작 실습
-#myImagePicker -> 라이브러리에서 이미지 호출 기능 및 카메라 활용하여 즉시 업로드 기능 + 이미지 스크린에 맞춤 기능 제작 + 로고&app icon
->[0610_myImagePicker](https://github.com/haloswpark/FC_ios/tree/master/ios_MainStudy/day40_0610/imagepickerSC.png)
+Alert기능 예제 연습 및 UIImagePicker 제작 실습 / myImagePicker -> 라이브러리에서 이미지 호출 기능 및 카메라 활용하여 즉시 업로드 기능 + 이미지 스크린에 맞춤 기능 제작 + 로고&app icon
+>[0610_myImagePicker](https://github.com/haloswpark/FC_ios/tree/master/ios_MainStudy/day40_0610/myImagePicker)
+![myImagePicker Screenshot](https://github.com/haloswpark/FC_ios/blob/master/ios_MainStudy/day40_0610/ImagepickerSC.png)
 
 2016.0531~0603 6주차 : 
 
