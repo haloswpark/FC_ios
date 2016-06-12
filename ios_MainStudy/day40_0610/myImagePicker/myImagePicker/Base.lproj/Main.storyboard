@@ -25,7 +25,7 @@
                                 </connections>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.062745098040000002" green="0.090196078430000007" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.93063952279999995" blue="0.71614495499999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Tr7-dr-aCu" secondAttribute="bottom" id="JoL-7C-Gmx"/>
                             <constraint firstItem="Tr7-dr-aCu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ZxZ-wB-RBg"/>
@@ -46,24 +46,6 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="305" y="429"/>
-        </scene>
-        <!--Controll-->
-        <scene sceneID="08k-No-y3s">
-            <objects>
-                <viewController id="XMj-6V-k5R" customClass="UIControll" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="41T-wI-H8r"/>
-                        <viewControllerLayoutGuide type="bottom" id="rss-TS-U72"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="NXW-VJ-7b4" customClass="UIControl">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5QD-xQ-zCu" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="947" y="429"/>
         </scene>
     </scenes>
 </document>
