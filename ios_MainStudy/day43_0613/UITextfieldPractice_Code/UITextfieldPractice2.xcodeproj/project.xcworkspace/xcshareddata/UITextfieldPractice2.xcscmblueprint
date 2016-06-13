@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "274D8546108A83CC52975F8B80662C5114F7F527",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "274D8546108A83CC52975F8B80662C5114F7F527" : 0,
+    "88607EBEC163B43F11471A181F4ABBAE6981151C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B37A33B7-A153-4099-A2A6-7D6E9F7081B7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "274D8546108A83CC52975F8B80662C5114F7F527" : "ios_MainStudy\/",
+    "88607EBEC163B43F11471A181F4ABBAE6981151C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UITextfieldPractice2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "day43_0613\/UITextfieldPractice2\/UITextfieldPractice2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/haloswpark\/fastcampus_iosps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "274D8546108A83CC52975F8B80662C5114F7F527"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/haloswpark\/FC_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88607EBEC163B43F11471A181F4ABBAE6981151C"
+    }
+  ]
+}
