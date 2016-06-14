@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "274D8546108A83CC52975F8B80662C5114F7F527",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "274D8546108A83CC52975F8B80662C5114F7F527" : 0,
+    "88607EBEC163B43F11471A181F4ABBAE6981151C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "45BCEC7D-5636-4A24-BB20-1B89545F8FF4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "274D8546108A83CC52975F8B80662C5114F7F527" : "ios_MainStudy\/",
+    "88607EBEC163B43F11471A181F4ABBAE6981151C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TabbarControllerExample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "day44_0614\/TabbarControllerExample\/TabbarControllerExample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/haloswpark\/fastcampus_iosps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "274D8546108A83CC52975F8B80662C5114F7F527"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/haloswpark\/FC_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88607EBEC163B43F11471A181F4ABBAE6981151C"
+    }
+  ]
+}
