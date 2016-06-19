@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15A2D1D21D16211D0045E4B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A2D1D11D16211D0045E4B4 /* main.m */; };
+		15A2D1D51D16211D0045E4B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A2D1D41D16211D0045E4B4 /* AppDelegate.m */; };
+		15A2D1D81D16211D0045E4B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A2D1D71D16211D0045E4B4 /* ViewController.m */; };
+		15A2D1DB1D16211D0045E4B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A2D1D91D16211D0045E4B4 /* Main.storyboard */; };
+		15A2D1DD1D16211D0045E4B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A2D1DC1D16211D0045E4B4 /* Assets.xcassets */; };
+		15A2D1E01D16211D0045E4B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A2D1DE1D16211D0045E4B4 /* LaunchScreen.storyboard */; };
+		15A2D1EB1D16211E0045E4B4 /* WhaleWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A2D1EA1D16211E0045E4B4 /* WhaleWebViewTests.m */; };
+		15A2D1F61D16211E0045E4B4 /* WhaleWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A2D1F51D16211E0045E4B4 /* WhaleWebViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15A2D1E71D16211E0045E4B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15A2D1C51D16211D0045E4B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15A2D1CC1D16211D0045E4B4;
+			remoteInfo = WhaleWebView;
+		};
+		15A2D1F21D16211E0045E4B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15A2D1C51D16211D0045E4B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15A2D1CC1D16211D0045E4B4;
+			remoteInfo = WhaleWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15A2D1CD1D16211D0045E4B4 /* WhaleWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhaleWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A2D1D11D16211D0045E4B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15A2D1D31D16211D0045E4B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15A2D1D41D16211D0045E4B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15A2D1D61D16211D0045E4B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15A2D1D71D16211D0045E4B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15A2D1DA1D16211D0045E4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15A2D1DC1D16211D0045E4B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15A2D1DF1D16211D0045E4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15A2D1E11D16211D0045E4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15A2D1E61D16211D0045E4B4 /* WhaleWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhaleWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A2D1EA1D16211E0045E4B4 /* WhaleWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhaleWebViewTests.m; sourceTree = "<group>"; };
+		15A2D1EC1D16211E0045E4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15A2D1F11D16211E0045E4B4 /* WhaleWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhaleWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A2D1F51D16211E0045E4B4 /* WhaleWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhaleWebViewUITests.m; sourceTree = "<group>"; };
+		15A2D1F71D16211E0045E4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15A2D1CA1D16211D0045E4B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A2D1E31D16211D0045E4B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A2D1EE1D16211E0045E4B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15A2D1C41D16211D0045E4B4 = {
+			isa = PBXGroup;
+			children = (
+				15A2D1CF1D16211D0045E4B4 /* WhaleWebView */,
+				15A2D1E91D16211E0045E4B4 /* WhaleWebViewTests */,
+				15A2D1F41D16211E0045E4B4 /* WhaleWebViewUITests */,
+				15A2D1CE1D16211D0045E4B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15A2D1CE1D16211D0045E4B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15A2D1CD1D16211D0045E4B4 /* WhaleWebView.app */,
+				15A2D1E61D16211D0045E4B4 /* WhaleWebViewTests.xctest */,
+				15A2D1F11D16211E0045E4B4 /* WhaleWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15A2D1CF1D16211D0045E4B4 /* WhaleWebView */ = {
+			isa = PBXGroup;
+			children = (
+				15A2D1D31D16211D0045E4B4 /* AppDelegate.h */,
+				15A2D1D41D16211D0045E4B4 /* AppDelegate.m */,
+				15A2D1D61D16211D0045E4B4 /* ViewController.h */,
+				15A2D1D71D16211D0045E4B4 /* ViewController.m */,
+				15A2D1D91D16211D0045E4B4 /* Main.storyboard */,
+				15A2D1DC1D16211D0045E4B4 /* Assets.xcassets */,
+				15A2D1DE1D16211D0045E4B4 /* LaunchScreen.storyboard */,
+				15A2D1E11D16211D0045E4B4 /* Info.plist */,
+				15A2D1D01D16211D0045E4B4 /* Supporting Files */,
+			);
+			path = WhaleWebView;
+			sourceTree = "<group>";
+		};
+		15A2D1D01D16211D0045E4B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15A2D1D11D16211D0045E4B4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15A2D1E91D16211E0045E4B4 /* WhaleWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				15A2D1EA1D16211E0045E4B4 /* WhaleWebViewTests.m */,
+				15A2D1EC1D16211E0045E4B4 /* Info.plist */,
+			);
+			path = WhaleWebViewTests;
+			sourceTree = "<group>";
+		};
+		15A2D1F41D16211E0045E4B4 /* WhaleWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15A2D1F51D16211E0045E4B4 /* WhaleWebViewUITests.m */,
+				15A2D1F71D16211E0045E4B4 /* Info.plist */,
+			);
+			path = WhaleWebViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15A2D1CC1D16211D0045E4B4 /* WhaleWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A2D1FA1D16211E0045E4B4 /* Build configuration list for PBXNativeTarget "WhaleWebView" */;
+			buildPhases = (
+				15A2D1C91D16211D0045E4B4 /* Sources */,
+				15A2D1CA1D16211D0045E4B4 /* Frameworks */,
+				15A2D1CB1D16211D0045E4B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhaleWebView;
+			productName = WhaleWebView;
+			productReference = 15A2D1CD1D16211D0045E4B4 /* WhaleWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15A2D1E51D16211D0045E4B4 /* WhaleWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A2D1FD1D16211E0045E4B4 /* Build configuration list for PBXNativeTarget "WhaleWebViewTests" */;
+			buildPhases = (
+				15A2D1E21D16211D0045E4B4 /* Sources */,
+				15A2D1E31D16211D0045E4B4 /* Frameworks */,
+				15A2D1E41D16211D0045E4B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15A2D1E81D16211E0045E4B4 /* PBXTargetDependency */,
+			);
+			name = WhaleWebViewTests;
+			productName = WhaleWebViewTests;
+			productReference = 15A2D1E61D16211D0045E4B4 /* WhaleWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15A2D1F01D16211E0045E4B4 /* WhaleWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A2D2001D16211E0045E4B4 /* Build configuration list for PBXNativeTarget "WhaleWebViewUITests" */;
+			buildPhases = (
+				15A2D1ED1D16211E0045E4B4 /* Sources */,
+				15A2D1EE1D16211E0045E4B4 /* Frameworks */,
+				15A2D1EF1D16211E0045E4B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15A2D1F31D16211E0045E4B4 /* PBXTargetDependency */,
+			);
+			name = WhaleWebViewUITests;
+			productName = WhaleWebViewUITests;
+			productReference = 15A2D1F11D16211E0045E4B4 /* WhaleWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15A2D1C51D16211D0045E4B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = swpark;
+				TargetAttributes = {
+					15A2D1CC1D16211D0045E4B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					15A2D1E51D16211D0045E4B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 15A2D1CC1D16211D0045E4B4;
+					};
+					15A2D1F01D16211E0045E4B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 15A2D1CC1D16211D0045E4B4;
+					};
+				};
+			};
+			buildConfigurationList = 15A2D1C81D16211D0045E4B4 /* Build configuration list for PBXProject "WhaleWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15A2D1C41D16211D0045E4B4;
+			productRefGroup = 15A2D1CE1D16211D0045E4B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15A2D1CC1D16211D0045E4B4 /* WhaleWebView */,
+				15A2D1E51D16211D0045E4B4 /* WhaleWebViewTests */,
+				15A2D1F01D16211E0045E4B4 /* WhaleWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15A2D1CB1D16211D0045E4B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A2D1E01D16211D0045E4B4 /* LaunchScreen.storyboard in Resources */,
+				15A2D1DD1D16211D0045E4B4 /* Assets.xcassets in Resources */,
+				15A2D1DB1D16211D0045E4B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A2D1E41D16211D0045E4B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A2D1EF1D16211E0045E4B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15A2D1C91D16211D0045E4B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A2D1D81D16211D0045E4B4 /* ViewController.m in Sources */,
+				15A2D1D51D16211D0045E4B4 /* AppDelegate.m in Sources */,
+				15A2D1D21D16211D0045E4B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A2D1E21D16211D0045E4B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A2D1EB1D16211E0045E4B4 /* WhaleWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A2D1ED1D16211E0045E4B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A2D1F61D16211E0045E4B4 /* WhaleWebViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15A2D1E81D16211E0045E4B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15A2D1CC1D16211D0045E4B4 /* WhaleWebView */;
+			targetProxy = 15A2D1E71D16211E0045E4B4 /* PBXContainerItemProxy */;
+		};
+		15A2D1F31D16211E0045E4B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15A2D1CC1D16211D0045E4B4 /* WhaleWebView */;
+			targetProxy = 15A2D1F21D16211E0045E4B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15A2D1D91D16211D0045E4B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15A2D1DA1D16211D0045E4B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15A2D1DE1D16211D0045E4B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15A2D1DF1D16211D0045E4B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15A2D1F81D16211E0045E4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15A2D1F91D16211E0045E4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15A2D1FB1D16211E0045E4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhaleWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.WhaleWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15A2D1FC1D16211E0045E4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhaleWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.WhaleWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15A2D1FE1D16211E0045E4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WhaleWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.WhaleWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhaleWebView.app/WhaleWebView";
+			};
+			name = Debug;
+		};
+		15A2D1FF1D16211E0045E4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WhaleWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.WhaleWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhaleWebView.app/WhaleWebView";
+			};
+			name = Release;
+		};
+		15A2D2011D16211E0045E4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WhaleWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.WhaleWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhaleWebView;
+			};
+			name = Debug;
+		};
+		15A2D2021D16211E0045E4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WhaleWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.WhaleWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhaleWebView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15A2D1C81D16211D0045E4B4 /* Build configuration list for PBXProject "WhaleWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A2D1F81D16211E0045E4B4 /* Debug */,
+				15A2D1F91D16211E0045E4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15A2D1FA1D16211E0045E4B4 /* Build configuration list for PBXNativeTarget "WhaleWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A2D1FB1D16211E0045E4B4 /* Debug */,
+				15A2D1FC1D16211E0045E4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15A2D1FD1D16211E0045E4B4 /* Build configuration list for PBXNativeTarget "WhaleWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A2D1FE1D16211E0045E4B4 /* Debug */,
+				15A2D1FF1D16211E0045E4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15A2D2001D16211E0045E4B4 /* Build configuration list for PBXNativeTarget "WhaleWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A2D2011D16211E0045E4B4 /* Debug */,
+				15A2D2021D16211E0045E4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15A2D1C51D16211D0045E4B4 /* Project object */;
+}
