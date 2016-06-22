@@ -24,17 +24,30 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+//필수
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
+    return 5;
+}
 
-/*
+//옵션
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+
+    return 2;
+}
+
+//필수
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
+    }
     // Configure the cell...
-    
+    cell.textLabel.text = @"상욱님";
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
