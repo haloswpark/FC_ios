@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "274D8546108A83CC52975F8B80662C5114F7F527",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "274D8546108A83CC52975F8B80662C5114F7F527" : 0,
+    "88607EBEC163B43F11471A181F4ABBAE6981151C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9B12FC07-E1A0-446E-9966-017E22151BC4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "274D8546108A83CC52975F8B80662C5114F7F527" : "ios_MainStudy\/",
+    "88607EBEC163B43F11471A181F4ABBAE6981151C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NetworkingMiniProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "day52_0622\/NetworkingMiniProject\/NetworkingMiniProject.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/haloswpark\/fastcampus_iosps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "274D8546108A83CC52975F8B80662C5114F7F527"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/haloswpark\/FC_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88607EBEC163B43F11471A181F4ABBAE6981151C"
+    }
+  ]
+}
