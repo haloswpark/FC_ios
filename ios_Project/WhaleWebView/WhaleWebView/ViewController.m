@@ -80,6 +80,31 @@
     [_webView loadRequest:request];
 }
 
+//재검색을 하였을 때, 주소창 리셋을 위한 함수
+-(BOOL)textFieldShouldBeginEditing:(UITextField *)textField{
+    [self webProperty];
+    [_typeUrl resignFirstResponder];
+    
+    return YES;
+}
+
+//액션값 지정해주기
+-(IBAction)actionWhaleBack:(UIButton *)sender {
+    [_webView goBack];
+}
+-(IBAction)actionWhaleForward:(UIButton *)sender{
+    [_webView goForward];
+}
+
+-(IBAction)actionRefresh:(UIButton *)sender{
+    [_webView reload];
+}
+
+//앞으로가기 뒤로가기 버튼 설정
+-(void)buttonAction {
+    [_whaleBack addTarget:self action:@selector(actionWhaleBack:) forControlEvents:UIContorlEventTouchUpInside];
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
