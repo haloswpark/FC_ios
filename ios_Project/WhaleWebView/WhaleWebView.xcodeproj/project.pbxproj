@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		158584591D224D9F00C0D730 /* whaleBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 158584571D224D9F00C0D730 /* whaleBack.png */; };
+		1585845A1D224D9F00C0D730 /* whaleForward.png in Resources */ = {isa = PBXBuildFile; fileRef = 158584581D224D9F00C0D730 /* whaleForward.png */; };
+		158584601D224EA700C0D730 /* Behance.png in Resources */ = {isa = PBXBuildFile; fileRef = 1585845B1D224EA700C0D730 /* Behance.png */; };
+		158584611D224EA700C0D730 /* Daum.png in Resources */ = {isa = PBXBuildFile; fileRef = 1585845C1D224EA700C0D730 /* Daum.png */; };
+		158584621D224EA700C0D730 /* Google.png in Resources */ = {isa = PBXBuildFile; fileRef = 1585845D1D224EA700C0D730 /* Google.png */; };
+		158584631D224EA700C0D730 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 1585845E1D224EA700C0D730 /* facebook.png */; };
+		158584641D224EA700C0D730 /* github.png in Resources */ = {isa = PBXBuildFile; fileRef = 1585845F1D224EA700C0D730 /* github.png */; };
+		158584661D22504800C0D730 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 158584651D22504800C0D730 /* refresh.png */; };
+		158584681D22515500C0D730 /* intro.png in Resources */ = {isa = PBXBuildFile; fileRef = 158584671D22515500C0D730 /* intro.png */; };
 		15A2D1D21D16211D0045E4B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A2D1D11D16211D0045E4B4 /* main.m */; };
 		15A2D1D51D16211D0045E4B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A2D1D41D16211D0045E4B4 /* AppDelegate.m */; };
 		15A2D1D81D16211D0045E4B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A2D1D71D16211D0045E4B4 /* ViewController.m */; };
@@ -35,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		158584571D224D9F00C0D730 /* whaleBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whaleBack.png; sourceTree = "<group>"; };
+		158584581D224D9F00C0D730 /* whaleForward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whaleForward.png; sourceTree = "<group>"; };
+		1585845B1D224EA700C0D730 /* Behance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Behance.png; sourceTree = "<group>"; };
+		1585845C1D224EA700C0D730 /* Daum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Daum.png; sourceTree = "<group>"; };
+		1585845D1D224EA700C0D730 /* Google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Google.png; sourceTree = "<group>"; };
+		1585845E1D224EA700C0D730 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		1585845F1D224EA700C0D730 /* github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = github.png; sourceTree = "<group>"; };
+		158584651D22504800C0D730 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		158584671D22515500C0D730 /* intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro.png; sourceTree = "<group>"; };
 		15A2D1CD1D16211D0045E4B4 /* WhaleWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhaleWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A2D1D11D16211D0045E4B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15A2D1D31D16211D0045E4B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,9 +124,18 @@
 				15A2D1D61D16211D0045E4B4 /* ViewController.h */,
 				15A2D1D71D16211D0045E4B4 /* ViewController.m */,
 				15A2D1D91D16211D0045E4B4 /* Main.storyboard */,
-				15A2D1DC1D16211D0045E4B4 /* Assets.xcassets */,
 				15A2D1DE1D16211D0045E4B4 /* LaunchScreen.storyboard */,
+				15A2D1DC1D16211D0045E4B4 /* Assets.xcassets */,
 				15A2D1E11D16211D0045E4B4 /* Info.plist */,
+				158584671D22515500C0D730 /* intro.png */,
+				158584571D224D9F00C0D730 /* whaleBack.png */,
+				158584651D22504800C0D730 /* refresh.png */,
+				158584581D224D9F00C0D730 /* whaleForward.png */,
+				1585845B1D224EA700C0D730 /* Behance.png */,
+				1585845C1D224EA700C0D730 /* Daum.png */,
+				1585845D1D224EA700C0D730 /* Google.png */,
+				1585845E1D224EA700C0D730 /* facebook.png */,
+				1585845F1D224EA700C0D730 /* github.png */,
 				15A2D1D01D16211D0045E4B4 /* Supporting Files */,
 			);
 			path = WhaleWebView;
@@ -207,6 +234,7 @@
 				TargetAttributes = {
 					15A2D1CC1D16211D0045E4B4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8J5BQA5RX8;
 					};
 					15A2D1E51D16211D0045E4B4 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,8 +271,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				158584661D22504800C0D730 /* refresh.png in Resources */,
+				1585845A1D224D9F00C0D730 /* whaleForward.png in Resources */,
 				15A2D1E01D16211D0045E4B4 /* LaunchScreen.storyboard in Resources */,
+				158584621D224EA700C0D730 /* Google.png in Resources */,
 				15A2D1DD1D16211D0045E4B4 /* Assets.xcassets in Resources */,
+				158584631D224EA700C0D730 /* facebook.png in Resources */,
+				158584591D224D9F00C0D730 /* whaleBack.png in Resources */,
+				158584641D224EA700C0D730 /* github.png in Resources */,
+				158584681D22515500C0D730 /* intro.png in Resources */,
+				158584611D224EA700C0D730 /* Daum.png in Resources */,
+				158584601D224EA700C0D730 /* Behance.png in Resources */,
 				15A2D1DB1D16211D0045E4B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,10 +450,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WhaleWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.WhaleWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -424,10 +465,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WhaleWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.WhaleWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -496,6 +541,7 @@
 				15A2D1FC1D16211E0045E4B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15A2D1FD1D16211E0045E4B4 /* Build configuration list for PBXNativeTarget "WhaleWebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +550,7 @@
 				15A2D1FF1D16211E0045E4B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15A2D2001D16211E0045E4B4 /* Build configuration list for PBXNativeTarget "WhaleWebViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +559,7 @@
 				15A2D2021D16211E0045E4B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
